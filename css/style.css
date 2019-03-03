@@ -226,8 +226,8 @@
   margin-bottom: 25px;
 }
 
-.features__title::after {
-  bottom: -27px;
+.features__title::after,
+.table__title::after {
   left: 552px;
 }
 
@@ -273,5 +273,89 @@
 
 .landx-features__img_number_six {
   background: url('../img/features-sixth.png') no-repeat center;
+}
+
+.first-info_center {
+  text-align: center;
+}
+
+.table__indent {
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.pricing-table__tick {
+  background: url('../img/tick.png') no-repeat center;
+  height: 18px;
+  width: 11px;
+  background-size: 122%;
+}
+
+.pricing-table__cross {
+  background: url('../img/cross.png') no-repeat center;
+  height: 18px;
+  width: 11px;
+  background-size: 122%;
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-table__indent {
+  padding-top: 30px;
+}
+
+.pricing-table__item {
+  width: 360px;
+}
+
+.pricing-table__rate {
+  background-color: #323232;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.pricing-table_bg_blue {
+  background-color: #0199e6;
+}
+
+.pricing-table__rate-name {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.pricing-table__rate-price {
+  color: #c8c8c8;
+}
+
+.pracing-table_color_blue {
+  color: #186992;
+}
+
+.pracing-table_color_white {
+  color: #ffffff;
+}
+
+
+.pricing-table__property {
+  padding: 20px 32px;
+  border-bottom: 1px dashed #eaeaea;
+  background-color: #ffffff;
+}
+
+.pricing-table__content {
+  border: 1px solid #eaeaea;
+}
+
+.pricing-table__feature {
+  float: left;
+}
+
+.pricing-table__value,
+.pricing-table__tick,
+.pricing-table__cross {
+  float: right;
 }
 
