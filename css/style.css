@@ -26,7 +26,7 @@
   justify-content: space-between;
 }
 
-.preview__indent {
+.container__preview {
   margin-bottom: 150px;
 }
 
@@ -46,7 +46,7 @@
   text-align: center;
 }
 
-.solution-info__indent {
+.container__solution-info {
   margin-bottom: 66px;
 }
 
@@ -95,12 +95,12 @@
   font-weight: bold;
 }
 
-.register-container {
+.register_container {
   width: 945px;
   margin: 0 auto;
 }
 
-.register__indent {
+.container__register {
   margin-bottom: 22px;
 }
 
@@ -130,7 +130,7 @@
   justify-content: space-between;
 }
 
-.awesomeness__indent {
+.container__awesomeness {
   padding: 100px 0;
 }
 
@@ -208,7 +208,7 @@
   padding-bottom: 105px;
 }
 
-.landx-features__indent {
+.container__landx-features {
   padding-top: 30px;
 }
 
@@ -279,7 +279,7 @@
   text-align: center;
 }
 
-.table__indent {
+.container__table {
   padding-top: 110px;
   padding-bottom: 100px;
 }
@@ -303,7 +303,7 @@
   justify-content: space-between;
 }
 
-.pricing-table__indent {
+.container__pricing-table {
   padding-top: 30px;
 }
 
@@ -317,7 +317,7 @@
   padding: 25px 0;
 }
 
-.pricing-table_bg_blue {
+.pricing-table__rate_bg_blue {
   background-color: #0199e6;
 }
 
@@ -334,7 +334,7 @@
   color: #186992;
 }
 
-.pracing-table_color_white {
+.pracing-table__rate-price_color_white {
   color: #ffffff;
 }
 
