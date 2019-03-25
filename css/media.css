@@ -140,7 +140,8 @@
   }
 
   .awesomeness__img {
-    background-size: 90%;
+    height: 330px;
+    width: 350px;
   }
 
   .container__awesomeness {
@@ -159,7 +160,8 @@
   }
 
   .awesomeness__img {
-    background-size: 70%;
+    height: 340px;
+    width: 280px;
   }
 
   .solution-info__title {
