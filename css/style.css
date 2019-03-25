@@ -68,10 +68,10 @@
 
 .register {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 25px;
-  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .register__item {
@@ -82,7 +82,9 @@
   padding: 20px;
   color: #808080;
   width: 181px;
+  margin: 0 20px;
 }
+
 
 .register__btn {
   color: #ffffff;
@@ -93,10 +95,10 @@
   padding: 0 42px;
   line-height: 61px;
   font-weight: bold;
+  margin: 0 20px;
 }
 
 .register_container {
-  width: 945px;
   margin: 0 auto;
 }
 
@@ -228,14 +230,18 @@
 
 .features__title::after,
 .table__title::after {
-  left: 552px;
+  left: 48%;
 }
 
 .landx-features {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+}
+
+.landx-features__item {
+  margin: 0 26px;
 }
 
 .landx-features__item:nth-child(1),
@@ -300,15 +306,16 @@
 
 .pricing-table {
   display: flex;
-  justify-content: space-between;
-}
-
-.container__pricing-table {
-  padding-top: 30px;
+  justify-content: center;
 }
 
 .pricing-table__item {
   width: 360px;
+  margin: 0 15px;
+}
+
+.container__pricing-table {
+  padding-top: 30px;
 }
 
 .pricing-table__rate {
